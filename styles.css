@@ -6,9 +6,10 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 75px;
     color: #0D0D0D;
     font-family: 'Merienda One';
+    width: 100%;
     text-align: center;
 }
 
@@ -21,4 +22,15 @@ h2 {
 p {
     color: #0D0D0D;
     font-family: 'IBM Plex Serif';
+    font-size: 20px;
+    width: 1200px
+}
+
+aside {
+    float: right;
+}
+
+.Logo {
+    float: left;
+    position: fixed;
 }
