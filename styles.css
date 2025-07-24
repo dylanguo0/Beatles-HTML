@@ -5,6 +5,10 @@ body {
     background-color: #BFBFBF;
 }
 
+header {
+    line-height: 30px
+}
+
 h1 {
     font-size: 75px;
     color: #0D0D0D;
@@ -18,8 +22,6 @@ nav {
     color: #F2F2F2;
     background-color: #595959;
     height: 40px;
-    position: relative;
-    bottom: 40px;
 }
 
 a {
@@ -52,4 +54,5 @@ aside {
 .Logo {
     float: left;
     position: absolute;
+    top: 20px;
 }
