@@ -13,6 +13,25 @@ h1 {
     text-align: center;
 }
 
+nav {
+    text-align: center;
+    color: #F2F2F2;
+    background-color: #595959;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+}
+
+a {
+    color: #F2F2F2;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
 h2 {
     font-size: 25px;
     color: #0D0D0D;
@@ -32,5 +51,5 @@ aside {
 
 .Logo {
     float: left;
-    position: fixed;
+    position: absolute;
 }
