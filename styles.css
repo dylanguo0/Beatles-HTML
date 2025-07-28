@@ -17,18 +17,22 @@ h1 {
     text-align: center;
 }
 
+.Logo {
+    float: left;
+    position: absolute;
+    top: 20px;
+}
+
 nav {
     text-align: center;
     color: #F2F2F2;
     background-color: #595959;
-    height: 40px;
+    line-height: 40px;
 }
 
 a {
     color: #F2F2F2;
     text-decoration: none;
-    position: relative;
-    top: 5px;
     margin-left: 25px;
     margin-right: 25px;
     font-size: 25px;
@@ -49,11 +53,22 @@ p {
 
 aside {
     float: right;
-    margin-top: 15px;
 }
 
-.Logo {
-    float: left;
-    position: absolute;
-    top: 20px;
+.Cover {
+    float: right;
+    width: 93%;
+    padding: 10px;
 }
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    color: #F2F2F2;
+    background-color: #595959;
+  }
