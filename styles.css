@@ -3,6 +3,7 @@
 
 body {
     background-color: #BFBFBF;
+    margin: 0;
 }
 
 header {
@@ -20,7 +21,8 @@ h1 {
 .Logo {
     float: left;
     position: absolute;
-    top: 20px;
+    top: 15px;
+    left: 15px;
 }
 
 nav {
@@ -38,6 +40,10 @@ a {
     font-size: 25px;
 }
 
+main {
+    margin-left: 15px;
+}
+
 h2 {
     font-size: 25px;
     color: #0D0D0D;
@@ -48,7 +54,6 @@ p {
     color: #0D0D0D;
     font-family: 'IBM Plex Serif';
     font-size: 20px;
-    width: 1200px
 }
 
 aside {
@@ -57,18 +62,23 @@ aside {
 
 .Cover {
     float: right;
-    width: 93%;
-    padding: 10px;
+    width: 542px;
+    padding: 15px;
 }
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     font-size: 15px;
     line-height: 30px;
     color: #F2F2F2;
     background-color: #595959;
+  }
+
+  #heyjude {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+    border: 10px solid #595959;
   }
